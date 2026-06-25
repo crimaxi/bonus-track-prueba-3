@@ -1,6 +1,6 @@
 fase 1: no se uso ia
 
-Etapa 2 — Componente RecetaCard
+Fase 2 — Componente RecetaCard
 1. Crea src/components/RecetaCard.jsx. 
 2. El componente recibe por props: nombre, origen, porciones, categoria, descripcion, ingredientes. 
 3. Muestra la información de forma visual y ordenada. 4. Aplica un estilo diferenciado según la categoría (un color/etiqueta distinto para Entrada, Fondo, Postre). 
@@ -11,5 +11,13 @@ Buenas prácticas de desarrollo seguro obligatorias en este componente:
 Utilidad de prompt:
 
 que se modifico:
+ 
+Fase 3 — Lista de recetas 
+1. Crea src/components/ListaRecetas.jsx que reciba el array de recetas por props. 
+2. Recorre el array con .map() y renderiza un RecetaCard por cada receta. Programación Front End (TI3031) — Sumativa U3 · V4 Página 5 
+3. Asigna correctamente la prop key usando el id de cada elemento (no uses el índice del array). 4. En App.jsx, renderiza ListaRecetas pasándole los datos importados.
 
+Utilidad de prompt:
+
+que se modifico:
 
