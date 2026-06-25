@@ -1,0 +1,15 @@
+fase 1: no se uso ia
+
+Etapa 2 — Componente RecetaCard
+1. Crea src/components/RecetaCard.jsx. 
+2. El componente recibe por props: nombre, origen, porciones, categoria, descripcion, ingredientes. 
+3. Muestra la información de forma visual y ordenada. 4. Aplica un estilo diferenciado según la categoría (un color/etiqueta distinto para Entrada, Fondo, Postre). 
+Buenas prácticas de desarrollo seguro obligatorias en este componente:
+• Define los tipos de las props con PropTypes (o documenta claramente cada prop) y entrega valores por defecto para evitar errores cuando falte un dato. 
+• Renderiza el texto siempre como contenido JSX normal. No uses dangerouslySetInnerHTML. • No dejes credenciales, claves ni datos sensibles escritos en el código.
+
+Utilidad de prompt:
+
+que se modifico:
+
+
