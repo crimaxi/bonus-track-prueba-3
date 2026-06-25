@@ -9,8 +9,12 @@ Buenas prácticas de desarrollo seguro obligatorias en este componente:
 • Renderiza el texto siempre como contenido JSX normal. No uses dangerouslySetInnerHTML. • No dejes credenciales, claves ni datos sensibles escritos en el código.
 
 Utilidad de prompt:
+- Orientar la implementación del componente `RecetaCard` con props bien definidas y prácticas seguras (PropTypes, defaultProps).
+- Asegurar que el contenido se renderice como JSX seguro (no usar dangerouslySetInnerHTML) y que la UI muestre información clara por categoría.
 
 que se modifico:
+se mantuvo el codigo generado por IA ya que cumplia con los requermientos estimados
+
  
 Fase 3 — Lista de recetas 
 1. Crea src/components/ListaRecetas.jsx que reciba el array de recetas por props. 
@@ -18,8 +22,10 @@ Fase 3 — Lista de recetas
 3. Asigna correctamente la prop key usando el id de cada elemento (no uses el índice del array). 4. En App.jsx, renderiza ListaRecetas pasándole los datos importados.
 
 Utilidad de prompt:
+- Indicar cómo debe renderizarse la lista de recetas de forma accesible y confiable, especificando el uso de `.map()` y la prop `key` correcta.
 
 que se modifico:
+se arreglo un error que se encontraba en recetas.js que la IA paso por alto
 
 etapa 4 - Etapa 4 — Estado y filtro seguro
 
@@ -33,8 +39,10 @@ Buenas prácticas de desarrollo seguro obligatorias:
 • Valida y normaliza el texto de búsqueda (recorta espacios y limita el largo) antes de usarlo, para no confiar ciegamente en la entrada del usuario.
 
 Utilidad de prompt:
+- Guiar la implementación del filtrado controlado y la búsqueda segura: componente controlado, normalización del texto y límite de longitud para evitar entradas inesperadas.
 
 que se modifico:
+se mantuvo el codigo generado por Ia ya que cumplia con los requisitos 
 
 Etapa 5 — Destacar las recetas vegetarianas 
 1. Resalta visualmente los elementos con esVegetariana: true (por ejemplo, una etiqueta “VEG” o un borde distinto). 
@@ -42,5 +50,16 @@ Etapa 5 — Destacar las recetas vegetarianas
 3. Verifica que toda la app corre sin errores ni warnings en consola.
 
 Utilidad de prompt:
+- Definir cómo destacar recetas vegetarianas y mostrar métricas sencillas (contador), además de verificar el funcionamiento sin errores de compilación.
 
 que se modifico:
+se mantuvo el codigo creado por la IA
+
+Etapa 5 - verificar requisitos:
+puedes verificar los requisitos encontrados en el archivo ia.txt se cumplen en la pagina de recetapp 
+
+Utilidad del prompt:
+permitio verificar que no existan errores a la hora de implementar todo el codigo
+
+que se modifico:
+se cambio manualmente la paleta de colores para que la aplicacion se vea mas moderna

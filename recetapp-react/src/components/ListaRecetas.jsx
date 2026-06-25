@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 function ListaRecetas({ recetas }) {
   if (!Array.isArray(recetas) || recetas.length === 0) {
-    return <p>No se encontraron recetas para esa categoría.</p>
+    return <p>No hay recetas que coincidan</p>
   }
 
   return (
