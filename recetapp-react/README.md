@@ -1,16 +1,40 @@
-# React + Vite
+# RecetApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+- **Estudiante:** Christopher Cortés
 
-Currently, two official plugins are available:
+Breve descripción
+------------------
+RecetApp es una aplicación React (Vite) para explorar recetas caseras. Permite filtrar por categoría, buscar por nombre y destacar recetas vegetarianas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Ejecutar localmente
+-------------------
+1. Instala dependencias:
 
-## React Compiler
+```bash
+cd recetapp-react
+npm install
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Ejecuta la app en modo desarrollo:
 
-## Expanding the Oxlint configuration
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+3. Abre en tu navegador: `http://localhost:5173/`
+
+Declaración de uso de IA
+------------------------
+Durante el desarrollo se utilizó GitHub Copilot para asistencia en la generación y refactorización de código. Todas las decisiones finales, revisiones y validaciones fueron realizadas por el estudiante.
+
+Archivos importantes
+-------------------
+- `src/components/RecetaCard.jsx` — componente de tarjeta de receta (PropTypes y defaultProps).
+- `src/components/ListaRecetas.jsx` — renderiza la lista usando `key={id}`.
+- `src/components/FiltroCategoria.jsx` — selector de categorías.
+- `src/data/recetas.js` — datos de ejemplo.
+- `ANALISIS.md`, `ia.txt` — documentación de las etapas y análisis.
+
+Licencia
+-------
+Proyecto para evaluación académica.
