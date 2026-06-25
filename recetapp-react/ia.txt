@@ -21,3 +21,17 @@ Utilidad de prompt:
 
 que se modifico:
 
+etapa 4 - Etapa 4 — Estado y filtro seguro
+
+Crea src/components/FiltroCategoria.jsx con botones o un selector para filtrar por la categoría: “Todas”, “Entrada”, “Fondo”, “Postre”.
+En App.jsx, usa useState para guardar el filtro seleccionado y un campo de búsqueda por nombre.
+Aplica ambos filtros sobre el array antes de pasarlo a ListaRecetas.
+Usa renderizado condicional para mostrar el mensaje “No hay recetas que coincidan” cuando el resultado quede vacío.
+Buenas prácticas de desarrollo seguro obligatorias:
+
+• El campo de búsqueda debe ser un componente controlado (su valor vive en el estado de React).
+• Valida y normaliza el texto de búsqueda (recorta espacios y limita el largo) antes de usarlo, para no confiar ciegamente en la entrada del usuario.
+
+Utilidad de prompt:
+
+que se modifico:
