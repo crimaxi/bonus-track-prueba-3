@@ -35,3 +35,12 @@ Buenas prácticas de desarrollo seguro obligatorias:
 Utilidad de prompt:
 
 que se modifico:
+
+Etapa 5 — Destacar las recetas vegetarianas 
+1. Resalta visualmente los elementos con esVegetariana: true (por ejemplo, una etiqueta “VEG” o un borde distinto). 
+2. Agrega un contador que muestre cuántas recetas son vegetarianas. 
+3. Verifica que toda la app corre sin errores ni warnings en consola.
+
+Utilidad de prompt:
+
+que se modifico:

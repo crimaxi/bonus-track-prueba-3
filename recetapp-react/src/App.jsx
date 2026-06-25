@@ -24,6 +24,9 @@ function App() {
     })
   }, [categoria, busqueda])
 
+  const totalVegetarianas = useMemo(() => recetas.filter(r => r.esVegetariana).length, [recetas])
+  const vegetarianasVisibles = recetasFiltradas.filter(r => r.esVegetariana).length
+
   return (
     <main className="app-container">
       <header className="app-header">
@@ -45,6 +48,10 @@ function App() {
             maxLength={50}
           />
         </div>
+      </div>
+
+      <div className="estado-recetas">
+        <div className="contador-veg">Recetas vegetarianas: {vegetarianasVisibles} / {totalVegetarianas}</div>
       </div>
 
       <ListaRecetas recetas={recetasFiltradas} />
